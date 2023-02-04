@@ -278,6 +278,18 @@ html {
   z-index: 1000;
   box-shadow: 0 0 10px #ddd;
   border-bottom: 1px solid #CCC;
+  animation: flash 1s forwards;
+}
+
+@keyframes flash {
+  from{
+    opacity: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    height: 72px;
+  }
 }
 
 .header-area .container {
