@@ -934,7 +934,9 @@ i.fa-xmark {
 }
 
 .slider .box .text p span {
-  color: var(--main-color);
+   color: transparent;
+  -webkit-text-stroke: 1px var(--main-color);
+  letter-spacing: 3px;
 }
 
 .slider .controls {
