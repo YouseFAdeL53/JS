@@ -970,11 +970,6 @@ i.fa-xmark {
   right: 25px;
 }
 
-.slider .controls #prev:hover,
-.slider .controls #next:hover {
-  opacity: 1;
-}
-
 .slider #pagaintion-ul {
   position: absolute;
   bottom: 25px;
