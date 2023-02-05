@@ -1000,7 +1000,7 @@ i.fa-xmark {
 .slider #pagaintion-ul li.active::before {
   content: "";
   width: 165%;
-  height: 165%;
+  height: 162%;
   left: -4px;
   top: -4px;
   border: 1px solid var(--main-color);
